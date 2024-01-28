@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sumantrini Das - A Developer and Programmer portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css" class="css">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            scroll-behavior: smooth;
+        }
+
+        body {
+            background-color: rgb(0, 0, 33);
+            color: white;
+            font-family: "Poppins", sans-serif;
+            /* padding: 80px; */
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(18, 18, 63);
+
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 1000;
+            /* Adjust z-index as needed */
+            background-color: rgb(18, 18, 63);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(192, 139, 223);
+            font-size: 1.01rem;
+        }
+
+        main hr {
+            border: 0;
+            background: rgb(201, 149, 249);
+            height: 1.2px;
+            margin: 40px 80px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+            align-items: center;
+        }
+
+        .firstSection>div {
+            width: 35%;
+        }
+
+        .leftSection {
+            /* background-color: red; */
+            width: 33px;
+            font-size: 2rem;
+            /* margin: 70px 0; */
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background: rgb(25, 25, 56);
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: white;
+            color: rgb(224, 113, 241);
+        }
+
+        .rightSection {
+            /* background-color: red; */
+        }
+
+        /* .rightSection img{
+            width: 90vh;
+            height: 60vh;
+            margin: 50px 0px;
+            opacity: 0.7;
+        } */
+        .rightSection img {
+            height: 30vh;
+            border-radius: 30%;
+
+            /* vertical-align: middle; */
+            width: 300px;
+            height: 176px;
+            margin: 50px 0px;
+            opacity: 0.7;
+
+
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .purple {
+            color: rgb(168, 92, 240);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(168, 92, 240);
+        }
+
+
+        
+
+        .secondSection {
+            max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+        }
+
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 80vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 150px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 90px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 90px;
+            color: gray;
+            width: 150px;
+            font-size: 12px;
+        }
+
+        .thirdSection {
+            max-width: 80vw;
+            height: 150vh;
+            margin: auto;
+        }
+
+        .thirdSection>h3{
+            margin-top: 1px;
+        }
+
+        .thirdSection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        .fourthSection {
+            max-width: 80vw;
+            height: 80vh;
+            margin: auto;
+        }
+
+        .fourthSection h1 {
+            font-size: 1.9rem;
+
+        }
+
+
+        .footer {
+            display: flex;
+            background-color: rgb(3, 0, 11);
+            /* height: 233px; */
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        footer .footer-rights {
+            display: flex;
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Sumantrini's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="#Intro">My Intro</a></li>
+                    <li><a href="#Education">Education</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#Projects">Projects</a></li>
+                    <li><a href="#Contacts">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Sumantrini</span>
+                <div> and I am a passionate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+                <div class="buttons">
+                    <a href="sumantrini_cv.pdf" download><button class="btn">Download Resume</button></a>
+                    <a href="https://github.com/sumantrini"><button class="btn">Visit GitHub</button></a>
+                </div>
+            </div>
+            <div class="rightSection"><img src="pic.jpeg" alt="" srcset=""></div>
+        </section>
+
+        <hr>
+
+        <section class="firstOne int" id="Intro">
+            <span class="text-gray int">A little something about myself</span>
+            <h1>Sumantrini's Intro</h1>
+            <div class="intro-left">
+            <div class="intro-text">
+                Hello there! I am Sumantrini, a programmer and web developer. Throughout this portfolio, I would like to invite you to explore my educational journey, some of my skills and projects.
+            </div>
+
+            <div class="intro-text">
+                You may bowse through my showcased projects and dive into my skills and feel free to contact me for any collaboration, oppurtunities or even a friendly-chat!
+            </div>
+
+            <div class="intro-text">
+                Thanks for visiting! Would look forward to connecting with you.
+            </div>
+        </div>
+
+        </section>
+
+        <hr>
+
+        <section class="secondSection" id="Education">
+            <span class="text-gray">My Educational Qualifications so far</span>
+            <h1>Education</h1>
+
+            <div class="box">
+                <div class="vertical">
+                    <div class="vertical-title">
+                        ICSE(2018)
+                    </div>
+                    <div class="vertical-desc">
+                        Completed 10th standard from Ram Mohan Mission High School
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        ISC(2020)
+                    </div>
+                    <div class="vertical-desc">
+                        Completed 12th standard from Hirendra Leela Patranavis High School
+                    </div>
+                </div>
+                <div class="vertical">
+                    <div class="vertical-title">
+                        BTech(2020-2024)
+                    </div>
+                    <div class="vertical-desc">
+                        Currently pursuing Btech degree in Information Technology from Future Institute of Engineering &
+                        Management
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <hr>
+
+        <section class="Skill" id="Skills">
+            <span class="text-gray">Some skills I have been tried to master over the time</span>
+            <h1>Sumantrini's Skills</h1>
+            <div class="skill-prof">
+                <div class="skill-text">Java :</div>
+                <div class="prof1"></div>
+
+                <div class="skill-text">HTML :</div>
+                <div class="prof2"></div>
+
+                <div class="skill-text">CSS :</div>
+                <div class="prof3"></div>
+
+                <div class="skill-text">JavaScript :</div>
+                <div class="prof4"></div>
+
+                <div class="skill-text">C :</div>
+                <div class="prof5"></div>
+
+                <div class="skill-text">SQL :</div>
+                <div class="prof6"></div>
+        </div>
+
+        </section>
+        <hr>
+
+        <section class="thirdSection" id="Projects">
+            <span class="text-gray">Some of my works and its GitHub links</span>
+            <h1>Sumantrini's Project</h1>
+            <div class="projs">
+                <ul>
+                    <div class="proj">
+                    <div class="proj-title">
+                        <li>
+                            <h3><u>ATM Interface</u></h3>
+                        </li>
+                    </div>
+                    <div class="proj-desc">
+                        <ul>
+                            <li>A Java application for providing an interface to users for performing real-life ATM
+                                activites like- Opening a new bank account, Depositing and Withdrawing amount, PIN
+                                change, MiniStatement, etc.</li>
+                            <li>Tech stack comprises of Java Swing for the front-end and MySql for back-end.</li>
+                            <li> Click here for the <a href="https://github.com/sumantrini/ATM_INTERFACE/blob/main/SignupOne.java">GitHub Source code link</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="proj">
+                    <div class="proj-title">
+                        <li>
+                            <h3><u>JobSniper</u></h3>
+                        </li>
+                    </div>
+                    <div class="proj-desc">
+                        <ul>
+                            <li>A basic Web-Scraping project for scraping job positions available information and saving it as a '.txt' file which gets updated by itself after every 10 minutes.</li>
+                            <li>Users can also filter out job positions requiring zero, one or more skills they are not comfortable with.</li>
+                            <li>Tech stack comprises of Python and BeautifulSoup library which is meant for scraping web in a much flexible manner.</li>
+                            <li>Click here for the <a href="https://github.com/sumantrini/JobSniper">GitHub/Source code link</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="proj">
+                    <div class="proj-title">
+                        <li>
+                            <h3><u>Personal Portfolio</u></h3>
+                        </li>
+                    </div>
+                    <div class="proj-desc">
+                        <ul>
+                            <li>A simple Personal Portfolio website for getting recognised and probably collab with interested individuals on some project/work purpose.</li>
+                            <li>It also comes with an option to download the resume.</li>
+                            <li>Tech stack comprises of pure HTML, CSS and JavaScript.</li>
+                            <li>Click here for the <a href="https://github.com/sumantrini/ATM_INTERFACE/blob/main/SignupOne.java">GitHub/Source code link</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+        </section>
+
+        <hr>
+        <section class="fourthSection" id="Contacts">
+            <span class="text-gray">Want to contact me for work purpose?</span>
+            <h1>Sumantrini's Contacts</h1>
+
+            <div class="contactForm">
+                <!-- <h3>Contact me for work/any other enquiry</h3> -->
+                <form>
+                    <div class="contact_text">
+                        <div class="mb-3 mail">
+                            <label for="clientemail" class="form-label" id="mail-text">Email address</label>
+                            <input type="email" class="form-control" id="clientemail" aria-describedby="emailHelp">
+                            <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.
+                            </div>
+                        </div>
+                        <div class="mb-3 cell">
+                            <label for="clientphone" class="form-label">Phone</label>
+                            <input type="phone" class="form-control" id="clientphone">
+                            <div id="emailHelp" class="form-text">For contacting over WhatsApp.</div>
+                        </div>
+                        <div class="mb-3" id="form-check">
+                            <input type="checkbox" class="form-check-input" id="isclient">
+                            <label class="form-check-label" for="isclient">Want to collab on a project?</label>
+                        </div>
+                        <button type="submit" class="btn btn-sm btn-primary">Submit</button>
+                        <div class="mb-3">
+                            You can also visit my <a class="purple" target="_blank" href="https://www.linkedin.com/in/sumantrini-das-996190207?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">LinkedIn</a> profile.
+                        </div>
+                </form>
+            </div>
+            </div>
+
+        </section>
+        <hr>
+
+    </main>
+
+    <footer>
+        <div class="footer">
+            <!-- <div class="footer-first">
+                Sumantrini's Developer Portfolio
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li>Email</li>
+                    <li>Contact no.</li>
+                    <li>GitHub link</li>
+                </ul>
+            </div> -->
+            <div class="footer-rights">
+                Copyright &#169;www.sumantrinisportfolio.com | All rights reserved
+            </div>
+        </div>
+
+    </footer>
+
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Front-end Web developer', 'Programmer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>

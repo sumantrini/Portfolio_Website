@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@1,100&family=Ubuntu:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@1,100&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&family=Ubuntu:wght@500&display=swap');
+
+
+.contactForm {
+    /* font-family: "Fira Sans", sans-serif; */
+    font-family: "Source Code Pro", monospace;
+
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+    padding: 0 34px;
+    /* padding-top: 144px; */
+}
+
+.contactForm h3 {
+    font-size: 1.2rem;
+    font-weight: lighter;
+
+}
+
+.contactForm form div input {
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 12px;
+    color: rgb(172, 172, 232);
+    margin: 0 5px;
+}
+
+#form-check {
+    flex-direction: row;
+}
+
+#form-check input {
+    width: 20px;
+    margin: 3px 0;
+}
+
+.mail {
+    /* background-color: red; */
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+.cell {
+    padding: 30px 0;
+    font-size: 20px;
+}
+
+.btn-sm {
+    font-size: 9px;
+    padding: 10px 19px;
+    margin: 12px 0;
+    border-radius: 15px;
+}
+
+
+.contact_text {
+    margin: 22px 0;
+    /* padding: 10px 0; */
+}
+
+#mail-text {
+    padding: 20px 0;
+}
+
+.projs {
+    /* background: white;
+    width: 80vw;
+    height: 2px; */
+    margin: 56px 0;
+    display: flex;
+    height: 200vh;
+}
+
+.projs ul li {
+    list-style: none;
+}
+
+.proj {
+    margin: 26px 0;
+}
+
+.proj-title {
+    /* position: relative; */
+    top: 90px;
+    width: 150px;
+}
+
+.proj-title li h3 {
+    width: 80vw;
+}
+
+.proj-desc {
+    /* position: relative;
+    top: 90px;
+    color: gray;
+    width: 150px;
+    font-size: 12px; */
+}
+
+.proj-desc ul li {
+    list-style: none;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.firstOne {
+    max-width: 100vw;
+    height: 50vh;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    margin: 80px 0;
+
+    /* background-color: aqua; */
+}
+
+.firstOne h1 {
+    font-size: 1.9rem;
+    margin-left: 10px;
+}
+
+.intro-left {
+    /* margin: 10px 0; */
+    margin: 25px 50px;
+    
+    width: 50vw;
+    padding: 35px;
+    justify-content: center;
+    /* background-color: yellow; */
+
+}
+
+#Intro{
+    margin-left: 100px;
+
+}
+
+.int{
+    margin-left: 10px;
+}
+
+.intro-text {
+    margin: 10px 50px;
+    margin-left: 0;
+    font-weight: 500;
+}
+
+.firstOne>.intro-text {
+    margin-top: 50px;
+}
+
+.int{
+    margin-left: 10px;
+}
+
+
+.Skill {
+    max-width: 80vw;
+    height: 80vh;
+    margin: auto;
+}
+
+.Skill>h3{
+    margin-top: 1px;
+}
+
+.Skill h1 {
+    font-size: 1.9rem;
+
+}
+
+.prof1{
+    height: 23px;
+    width: 300px;
+    background-color: rgb(26, 76, 177);
+}
+.prof2{
+    height: 23px;
+    width: 200px;
+    background-color: rgb(26, 76, 177);
+}
+.prof3{
+    height: 23px;
+    width: 180px;
+    background-color: rgb(26, 76, 177);
+}
+.prof4{
+    height: 23px;
+    width: 100px;
+    background-color: rgb(26, 76, 177);
+}
+
+.prof5{
+    height: 23px;
+    width: 290px;
+    background-color: rgb(26, 76, 177);
+}
+
+.prof6{
+    height: 23px;
+    width: 190px;
+    background-color: rgb(26, 76, 177);
+}
+
+.skill-text{
+    margin: 10px 0;
+}
